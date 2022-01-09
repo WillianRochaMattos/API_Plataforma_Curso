@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursosOnDemandAPI", "CursosOnDemandAPI\CursosOnDemandAPI.csproj", "{FF7E1621-3420-4A6E-B31D-4E6CF18EF5BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursosOnDemandAPITest", "CursosOnDemandAPITest\CursosOnDemandAPITest.csproj", "{E3618D23-CDE6-4BDC-A012-88A42FE35469}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF7E1621-3420-4A6E-B31D-4E6CF18EF5BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF7E1621-3420-4A6E-B31D-4E6CF18EF5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF7E1621-3420-4A6E-B31D-4E6CF18EF5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF7E1621-3420-4A6E-B31D-4E6CF18EF5BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3618D23-CDE6-4BDC-A012-88A42FE35469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3618D23-CDE6-4BDC-A012-88A42FE35469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3618D23-CDE6-4BDC-A012-88A42FE35469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3618D23-CDE6-4BDC-A012-88A42FE35469}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB9B557E-7A84-40F3-AC78-1F13ABA43D63}
+	EndGlobalSection
+EndGlobal

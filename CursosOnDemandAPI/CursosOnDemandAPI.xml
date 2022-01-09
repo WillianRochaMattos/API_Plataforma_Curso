@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CursosOnDemandAPI</name>
+    </assembly>
+    <members>
+        <member name="M:CartaoOnDemandAPI.Controllers.CartaoController.Get">
+            <summary>
+            Retorna todos os cartôes cadastrados
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CartaoOnDemandAPI.Controllers.CartaoController.Get(System.Int64)">
+            <summary>
+            Este método busca o cartão cadastrado passando o ID como Parâmetro.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CartaoOnDemandAPI.Controllers.CartaoController.Post(CursosOnDemandAPI.Models.Cartao)">
+            <summary>
+            Este método irá inserir o Cartão atráves do cartão passado como parâmetro
+            </summary>
+            <param name="cartao"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CartaoOnDemandAPI.Controllers.CartaoController.Put(CursosOnDemandAPI.Models.Cartao)">
+            <summary>
+            Este método irá atualizar o Cartão cadastrado atráves do cartao passado como parâmetro 
+            </summary>
+            <param name="cartao"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CartaoOnDemandAPI.Controllers.CartaoController.Delete(System.Int64)">
+            <summary>
+             Este método irá deletar o cartão passando o ID como parâmetro
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CursosOnDemandAPI.Controllers.CursosController.Get">
+            <summary>
+            Este método retorna toda a lista de Cursos Cadastrados.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CursosOnDemandAPI.Controllers.CursosController.Get(System.Int64)">
+            <summary>
+            Este método irá buscar todos os Cursos cadastrados passando o ID como parâmetro.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CursosOnDemandAPI.Controllers.CursosController.Post(CursosOnDemandAPI.Models.Cursos)">
+            <summary>
+            Este método irá inserir o Curso atráves do curso passado como parâmetro
+            </summary>
+            <param name="cursos"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CursosOnDemandAPI.Controllers.CursosController.Put(CursosOnDemandAPI.Models.Cursos)">
+            <summary>
+             Este método irá atualizar o Curso cadastrado atráves do curso passado como parâmetro 
+            </summary>
+            <param name="cursos"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CursosOnDemandAPI.Controllers.CursosController.Delete(System.Int64)">
+            <summary>
+            Irá deletar o Curso passado o ID como Parâmetro
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CursosOnDemandAPI.Controllers.EstudanteController.Get">
+            <summary>
+            Retorna toda a lista de estudantes cadastrados
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CursosOnDemandAPI.Controllers.EstudanteController.Get(System.Int64)">
+            <summary>
+            Este método irá buscar o Estudante através do ID passado como parâmetro
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CursosOnDemandAPI.Controllers.EstudanteController.Post(CursosOnDemandAPI.Models.Estudante)">
+            <summary>
+             Este método irá inserir o Estudante atráves do estudante passado como parâmetro
+            </summary>
+            <param name="estudante"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CursosOnDemandAPI.Controllers.EstudanteController.Put(CursosOnDemandAPI.Models.Estudante)">
+            <summary>
+            Este método irá atualizar o Estudante cadastrado atráves do estudante passado como parâmetro 
+            </summary>
+            <param name="estudante"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CursosOnDemandAPI.Controllers.EstudanteController.Delete(System.Int64)">
+            <summary>
+            Este método irá deletar o etudante passando o ID como parâmetro
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CursosOnDemandAPI.Controllers.MatriculaController.Matricula(CursosOnDemandAPI.Models.Matricula)">
+            <summary>
+            Este método irá inserir a matrícula 
+            </summary>
+            <param name="matricula"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
